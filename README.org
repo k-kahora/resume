@@ -1,0 +1,9 @@
+* Generate Resume
+** Overleaf
+Just put the tex file into overleaf
+** Locally
+Make sure texlive full is installed.
+run =pdflatex resume.tex=
+** Locally (nix)
+=nix develop=
+=pdflatex resume.tex=
