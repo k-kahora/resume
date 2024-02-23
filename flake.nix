@@ -12,12 +12,13 @@
       buildInputs = [
 	# nixgl.defaultPackage.x86_64-linux
 	texlive.combined.scheme-full
+  pandoc
 	# latex
       ];
 
       # Optional: Set PYTHONPATH if needed
       shellHook = ''
-        export PYTHONSTARTUP=./startup.py
+        alias to-text="pandoc --to=plain --wrap=none"
       '';
     };
   };
