@@ -1,9 +1,9 @@
 %-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
+% Cover Letter in Latex
+% Author : Your Name
+% Based off of: resume.tex by Jake Gutierrez
 % License : MIT
-%------------------------
+%-------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -19,272 +19,68 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{fontawesome5}
-\usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
-\input{glyphtounicode}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
-\fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-0.5in}
-\addtolength{\textheight}{1.4in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \begin{document}
-
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
 
 \begin{center}
     {\Huge \scshape Malcolm Kahora} \\ \vspace{1pt}
     Scotch Plains, NJ 07076 \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}\faPhone\ 732-585-3225 ~ \href{malcolmkahora@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{malcolmkahora@gmail.com}} ~ 
+    \small \raisebox{-0.1\height}\faPhone\ 732-585-3225 ~ \href{mailto:malcolmkahora@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{malcolmkahora@gmail.com}} ~ 
     \href{https://linkedin.com/in/malcolm-kahora/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/malcolm-kahora}}  ~
     \href{https://github.com/k-kahora}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/k-kahora}}
     \vspace{-8pt}
 \end{center}
 
+% Date
+\vspace{12pt}
+\today
 
-%-----------TECHNICAL EXPERIENCE-----------
-\section{Technical Experience}
-\resumeSubHeadingListStart
-    
-          
+%% % Addressee
+%% \vspace{12pt}
+%% Hiring Manager\\
+%% Door Dash\\
+%% Door Dash Adress\\
+%% California\\
 
-    \resumeSubheading
-      {The College of New Jersey}{September 2021 --  Present}
-      {Student Technichian}{Ewing, New Jersey}
-      \resumeItemListStart
-        \resumeItem{Manage the help desk ticketing system, providing assistance in person to TCNJ staff. Handle
-     the "web-checkout" platform, ensuring tech equipment is delivered and/or returned timely.}
-    \resumeItemListEnd
-    \resumeSubheading
-      {Northwestern Mutual}{June 2022 -- August 2022}
-      {Software Engineer Intern}{Milwaukee, Wisconsin}
-      \resumeItemListStart
-        \resumeItem{Implemented an Ansible and GitLab CI/CD script for automating fstab mounting on production servers. This initiative not only streamlined fstab mounting process but served as the starting point for future Gitlab pipelines.}
-        \resumeItem {Actively participated in inter-departmental meet-and-greets, which were instrumental in gaining a comprehensive understanding of the company’s tech infrastructure.}
+% Opening
+\vspace{12pt}
+Dear Hiring Manager,
 
-      \resumeItemListEnd
-    \resumeSubHeadingListEnd
-    \vspace{-20pt}
-    %-----------PROJECTS-----------
-\section{Projects}
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-          {\textbf{TCNJ Department of Computer Science Research} $|$ \emph{C\#, Unity, Oculus}}{Febuary 2023 -- Present}
-          \resumeItemListStart
-            \resumeItem{Develop a Unity application that transports virtual reality facial data over a client server
-     architecture.}
+% Body
+\vspace{12pt}
+One of my teachers made me aware of this position via email, she sent a email with link to Steven Pungdumri linkedin post where he presented a some newgrad positions at door dash it caught my interest.  I am writing to express my interest in the Software Engineer at DoorDash, as advertised on Linked in sent from my professor. With a Bachelor of Science in Computer Science from The College of New Jersey and hands-on experience in Software Engineering, I am confident in my ability to contribute effectively to your team.
 
-           \vspace{-18pt}
-          \resumeItemListEnd 
-                \resumeProjectHeading
-          {\textbf{Softbody Simulation} $|$ \emph{Rust, Bevy}}{Febuary 2023}
-          \resumeItemListStart
-            \resumeItem{Participated in the TCNJ Hackathon with a team of two, Used Rust with Bevy game engine to create a 2D softbody simulation resembling the mobile game Jelly Car. }
-          \resumeItemListEnd
-                 \vspace{-18pt}
-      \resumeProjectHeading
-          {\textbf{NetAPP Dashboard for Northwestern Mutual} $|$ \emph{Python3, Django, Javascript, D3.js}}{May 2022}
-          \resumeItemListStart
-            \resumeItem{Developed a Django backend to pull data from the NetApp Network Attached Storage (NAS) REST API.}
-            \resumeItem{Implemented a highly interactive frontend using D3.js that fully visualized more than a petabyte of data stored on the NAS.}
-            \resumeItem{Completed dashboard increased the efficiency of the Storage and Backup team as they could now easily gather volumetric storage data of the company's NAS for their monthly reports.}
-          \resumeItemListEnd
-          \vspace{-18pt}
-      \resumeProjectHeading
-          {\textbf{Wii Tanks Clone} $|$ \emph{Java, Android Studio, Libdgx}}{November 2021}
-          \resumeItemListStart
-            \resumeItem{Created a Java game using the Libgdx framework with custom art, and code.}
-            \resumeItem{Converted Java game to Javascript to run in the browser using GWT}
-          \resumeItemListEnd 
-   
+I have a previous internship with Northwestern Mutual software engineering, I learned data bases in one of my classes.  Through developing software as a hobby I am able to have a good understanding of data structures and algorithms.  I have experience using python in my internship, however I have shifted my knowlege of programming in languages like python and java into languages I belive I would enjoy writing and learning ocaml as I was struggling to write complex python in part due to its lax type system.
+I can learn new concepts very well, I have been using emacs since my freshmen year as well as dived into linux for the purpose of software developemnt and have been using nixos as my main operating system for several years at this point.  I truly enjoy looking at things from different perspectives and often treat programming as a recreational activity.  I also have been using version control as well as understodd its benifits long befor it was introduced in school, It gives me the heads up in collaboration as I am very familar with using it with additonal people.
+
+
+
+
+B.S., M.S. in Computer Science or related disciplines with graduation date between Spring 2024 and Summer 2024
+At least 2 previous Software Engineering internships or equivalent work experience, with no more than 2 years of full-time work experience
+Experience working with databases (e.g. SQL)
+Solid understanding of algorithms and data structures
+Experience working with at least one object-oriented programming language )e.g. Python, Java, Kotlin, etc.)
+Experience writing clean code, working with version control, and unit testing
+
  
-  
-          \vspace{-13pt}
-          
-          
-    \resumeSubHeadingListEnd
-\vspace{-2pt}
+%% [Paragraph 2: Experience and skills]
+I have experience in 
 
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Additional Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, JavaScript, Ocaml, C, C\#, Rust, HTML/CSS, Java, C/C++, Go} \\
-     \textbf{Developer Tools/Operating Systems}{: NixOS, Emacs, Linux, Nix Flakes, Git/Github, Ansible, Direnv, Neovim} \\
-     \textbf{Technologies/Frameworks}{: D3.js, Django, HTMX, CI/CD, Postgres} \\
-    }}
- \end{itemize}
- \vspace{-16pt}
+%% [Paragraph 3: Why you're interested in this position/company]
 
+% Closing
+\vspace{12pt}
+Thank you for considering my application. I am looking forward to the opportunity to further discuss how I can contribute to [Company Name]. Please feel free to contact me at 732-585-3225 or via email at malcolmkahora@gmail.com to schedule an interview.
 
-%------RELEVANT COURSEWORK-------
-% \section{Relevant Coursework}
-%     %\resumeSubHeadingListStart
-%         \begin{multicols}{4}
-%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
-%                 \item\small Data Mining
+\vspace{12pt}
+Sincerely,
 
-%                 \item Algorithms Analysis
-%                 \item Database Management
-%                 \item Artificial Intelligence
-%                 \item Software Engineering
-%                 \item Machine Learning
-%                 \item Operating Systems
-%             \end{itemize}
-%         \end{multicols}
-%         \vspace*{2.0\multicolsep}
-    %\resumeSubHeadingListEnd
-
-
-
-%-----------EXPERIENCE-----------
-\section{General Experience}
-  \resumeSubHeadingListStart
-
-      \resumeSubheading
-      {Woodward Action Sports Camp} {May 2023 -- August 2023}
-      {Pro Shop Associate}{Woodward, Pennsylvania}
-      \resumeItemListStart
-        \resumeItem{Served as the bike, scooter, and skateboard mechanic for 600 weekly overnight campers. Managed the point of sales system, and closed the shop.}
-    \resumeItemListEnd
-    \resumeSubheading
-      {Trader Joes} {September 2020 -- September 2021}
-      {Crewmate}{Westfield, New Jersey}
-      \resumeItemListStart
-        \resumeItem{Handled multiple roles such as cashier, cart handler, store closer
-        and shelf stocker, ensured smooth store operations and quality customer experiences; all during the challenging COVID-19 peak.}
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
-\vspace{-16pt}
-{
-
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {The College of New Jersey}{September 2020 -- Expected Graduation May 2024}
-      {Bachelor of Science in Computer Science}{Ewing, New Jersey}
-  \resumeSubHeadingListEnd
-
-
-%-----------INVOLVEMENT---------------
-\vspace{-10pt}
-
-}\section{Leadership / Extracurricular}
-
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-          {\textbf{Treasurer of TCNJ Ski And Snowboard Club.} \emph{}}{September 2023 -- Febuary 2024}
-    \resumeSubHeadingListEnd
-    \vspace{-30pt}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-          {\textbf{Achieved the rank of Eagle Scout, Troop 73} \emph{}}{May 2020}
-    \resumeSubHeadingListEnd
-%% \section{Leadership / Extracurricular}
-%%     \resumeSubHeadingListStart
-%%     \resumeSubheading{Frat}{Blat-blat}
-%%             \resumeItemListStart
-%%                 \resumeItem{Treasurer of TCNJ SKi and Snowboard.}
-%%                 \resumeItem{Achieved the rank of Eagle Scout, Troop 73.}
-%%             \resumeItemListEnd
-        
-%%     \resumeSubHeadingListEnd
-
+\vspace{50pt}
+Malcolm Kahora
 
 \end{document}
-

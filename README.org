@@ -7,3 +7,12 @@ run =pdflatex resume.tex=
 ** Locally (nix)
 =nix develop=
 =pdflatex resume.tex=
+
+** 
+
+B.S., M.S. in Computer Science or related disciplines with graduation date between Spring 2022 and December 2023
+At least 2 previous Software Engineering internships or equivalent work experience, with no more than 2 years of full-time work experience
+Experience working with databases (e.g. SQL)
+Solid understanding of algorithms and data structures
+Experience working with at least one object-oriented programming language )e.g. Python, Java, Kotlin, etc.)
+Experience writing clean code, working with version control, and unit testing
