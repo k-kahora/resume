@@ -1,4 +1,5 @@
 *.pdf
+!njdep-personal-relationship-disclosure-statement.pdf
 *.log
 *.out
 .direnv
