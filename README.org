@@ -16,3 +16,10 @@ Experience working with databases (e.g. SQL)
 Solid understanding of algorithms and data structures
 Experience working with at least one object-oriented programming language )e.g. Python, Java, Kotlin, etc.)
 Experience writing clean code, working with version control, and unit testing
+
+* DEP []
+** TODO Move march 15th to the right
+** TODO put the adress of DEP in the left hand side of the cover letter
+** TODO Do not start with my name is malcolm kahora
+** TODO Make the specific classes Capilitized
+** TODO  
