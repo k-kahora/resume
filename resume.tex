@@ -17,6 +17,8 @@
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{geometry}
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{fontawesome5}
@@ -38,10 +40,13 @@
 % \usepackage{charter}
 
 
+\geometry{
+  bottom=4cm
+}
 \pagestyle{fancy}
+
 \fancyhf{} % clear all header and footer fields
-\setlength{\footskip}{13.59999pt}
-\fancyfoot[R]{\thepage}
+\rfoot{\hspace{-4cm}Page \thepage\ of 2}%% \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -128,12 +133,16 @@
 \begin{center}
     {\Huge \scshape Malcolm Kahora} \\ \vspace{1pt}
     Scotch Plains, NJ 07076 \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}\faPhone\ 732-585-3225 ~ \href{malcolmkahora@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{malcolmkahora@gmail.com}} ~ 
+     \href{malcolmkahora@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{malcolmkahora@gmail.com}} ~ 
     \href{https://linkedin.com/in/malcolm-kahora/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/malcolm-kahora}}  ~
     \href{https://github.com/k-kahora}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/k-kahora}}
     \vspace{-8pt}
-\end{center}
 
+\end{center}
+\begin{center}
+\small \raisebox{-0.1\height}\faPhone\ 732-585-3225 ~
+
+\end{center}
 
 %-----------TECHNICAL EXPERIENCE-----------
 \section{Technical Experience}
@@ -145,7 +154,7 @@
       {The College of New Jersey (TCNJ)}{September 2021 --  Present}
       {Student Technichian}{Ewing, New Jersey}
       \resumeItemListStart
-        \resumeItem{Manage the help desk ticketing system, providing assistance in person to TCNJ staff. Handle
+        \resumeItem{Manage the help desk ticketing system, providing assistance in-person to TCNJ staff. Handle
      the "web-checkout" platform, ensuring tech equipment is delivered and/or returned timely.}
     \resumeItemListEnd
     \resumeSubheading
@@ -191,7 +200,7 @@
           \resumeItemListStart
             \resumeItem{Developed a Django backend to pull data from the NetApp's Network Attached Storage (NAS), REST API.}
             \resumeItem{Implemented a highly interactive frontend using D3.js that fully visualized more than a petabyte of data stored on the NAS.}
-            \resumeItem{Assembled a dashboard that increased the retrevial efficiency of the Storage and Backup Team in gathering volumetric storage data of the company's NAS for their monthly reports.}
+            \resumeItem{Assembled a dashboard that increased the retrevial efficiency of the Storage and Backup Team in gathering volumetric storage data from the company's NAS for their monthly reports.}
           \resumeItemListEnd
           \vspace{-18pt}
       \resumeProjectHeading
@@ -205,7 +214,7 @@
           
           
     \resumeSubHeadingListEnd
-\vspace{-2pt}
+\vspace{10pt}
 
 %
 %-----------PROGRAMMING SKILLS-----------
@@ -258,6 +267,21 @@
         and shelf stocker, ensured smooth store operations and quality customer experiences; all during the challenging COVID-19 peak.}
     \resumeItemListEnd
 
+    \newpage
+
+%% \begin{center}
+%%     {\Huge \scshape Malcolm Kahora} \\ \vspace{1pt}
+%%     Scotch Plains, NJ 07076 \\ \vspace{1pt}
+%%      \href{malcolmkahora@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{malcolmkahora@gmail.com}} ~ 
+%%     \href{https://linkedin.com/in/malcolm-kahora/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/malcolm-kahora}}  ~
+%%     \href{https://github.com/k-kahora}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/k-kahora}}
+%%     \vspace{-8pt}
+
+%% \end{center}
+%% \begin{center}
+%% \small \raisebox{-0.1\height}\faPhone\ 732-585-3225 ~
+
+%% \end{center}
     \resumeSubheading
       {Scotch Plains Recreation Department} {May 2019 -- August 2019}
       {Counselor}{Scotch Plains, New Jersey}
